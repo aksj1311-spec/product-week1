@@ -3,16 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lotto Number Generator</title>
+    <title>Mood Melody: Find Your Sound</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="background-overlay"></div>
     <div class="container">
-        <h1>Lotto Number Generator</h1>
-        <div class="lotto-card">
-            <div class="numbers-display"></div>
-            <button id="generate-btn">Generate Numbers</button>
-        </div>
+        <header>
+            <h1>Mood Melody</h1>
+            <p>How are you feeling right now?</p>
+        </header>
+
+        <section class="mood-selector">
+            <button class="mood-btn" data-mood="happy">😊 Happy</button>
+            <button class="mood-btn" data-mood="sad">😢 Sad</button>
+            <button class="mood-btn" data-mood="energetic">⚡ Energetic</button>
+            <button class="mood-btn" data-mood="relaxed">🌿 Relaxed</button>
+            <button class="mood-btn" data-mood="focused">🧠 Focused</button>
+        </section>
+
+        <section id="recommendation-card" class="recommendation-card hidden">
+            <div class="card-content">
+                <h2 id="song-title">Song Title</h2>
+                <h3 id="artist-name">Artist Name</h3>
+                <div class="actions">
+                    <a id="listen-link" href="#" target="_blank" class="action-btn primary">Listen Now</a>
+                    <button id="next-btn" class="action-btn secondary">Try Another</button>
+                </div>
+            </div>
+        </section>
     </div>
     <script src="main.js"></script>
 </body>
