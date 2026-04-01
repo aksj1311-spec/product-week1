@@ -1,38 +1,38 @@
 const moodData = {
     happy: [
-        { title: "Can't Stop the Feeling!", artist: "Justin Timberlake" },
-        { title: "Happy", artist: "Pharrell Williams" },
-        { title: "Walking on Sunshine", artist: "Katrina & The Waves" },
-        { title: "Don't Stop Me Now", artist: "Queen" },
-        { title: "Uptown Funk", artist: "Mark Ronson ft. Bruno Mars" }
+        { title: "Dynamite", artist: "BTS" },
+        { title: "Love Lee", artist: "AKMU" },
+        { title: "Hype Boy", artist: "NewJeans" },
+        { title: "파이팅 해야지 (Feat. 이영지)", artist: "부석순 (SEVENTEEN)" },
+        { title: "러브 썸띵", artist: "아이유" }
     ],
     sad: [
-        { title: "Someone Like You", artist: "Adele" },
-        { title: "Fix You", artist: "Coldplay" },
-        { title: "Stay With Me", artist: "Sam Smith" },
-        { title: "Yesterday", artist: "The Beatles" },
-        { title: "Skinny Love", artist: "Bon Iver" }
+        { title: "밤편지", artist: "아이유" },
+        { title: "안녕", artist: "폴킴" },
+        { title: "모든 날, 모든 순간", artist: "폴킴" },
+        { title: "사랑하지 않아서 그랬어", artist: "임한별" },
+        { title: "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지", artist: "AKMU" }
     ],
     energetic: [
-        { title: "Eye of the Tiger", artist: "Survivor" },
-        { title: "Stronger", artist: "Kanye West" },
-        { title: "Power", artist: "Kanye West" },
-        { title: "Lose Yourself", artist: "Eminem" },
-        { title: "Thunderstruck", artist: "AC/DC" }
+        { title: "Next Level", artist: "aespa" },
+        { title: "Super Shy", artist: "NewJeans" },
+        { title: "이브, 프시케 그리고 푸른 수염의 아내", artist: "LE SSERAFIM" },
+        { title: "Seven (Feat. Latto)", artist: "정국" },
+        { title: "MANIAC", artist: "Stray Kids" }
     ],
     relaxed: [
-        { title: "Weightless", artist: "Marconi Union" },
-        { title: "Sunflower", artist: "Post Malone & Swae Lee" },
-        { title: "Better Together", artist: "Jack Johnson" },
-        { title: "Coming Home", artist: "Leon Bridges" },
-        { title: "Put Your Records On", artist: "Corinne Bailey Rae" }
+        { title: "Ditto", artist: "NewJeans" },
+        { title: "비 오는 날 듣기 좋은 노래", artist: "에픽하이" },
+        { title: "가을 아침", artist: "아이유" },
+        { title: "Square (2017)", artist: "백예린" },
+        { title: "자장가", artist: "아이유" }
     ],
     focused: [
-        { title: "Clair de Lune", artist: "Claude Debussy" },
-        { title: "Experience", artist: "Ludovico Einaudi" },
-        { title: "Cornfield Chase", artist: "Hans Zimmer" },
-        { title: "River Flows in You", artist: "Yiruma" },
-        { title: "Gymnopédie No. 1", artist: "Erik Satie" }
+        { title: "Maybe", artist: "Yiruma" },
+        { title: "Kiss the Rain", artist: "Yiruma" },
+        { title: "Last Carnival", artist: "Acoustic Cafe" },
+        { title: "그해 우리는 (Piano Ver.)", artist: "남혜승" },
+        { title: "숲의 노래", artist: "릴렉싱 뮤직" }
     ]
 };
 
